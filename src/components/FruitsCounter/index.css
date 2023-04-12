@@ -1,0 +1,54 @@
+.bgMain {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #000000;
+}
+.counting {
+  color: #ffd569;
+}
+.eatButton {
+  background-color: #007bff;
+  color: #ffffff;
+  border-width: 0px;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.mangoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bananaContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 250px;
+  margin: 20px;
+}
+@media (min-width: 768px) {
+  .bigScreens {
+    display: flex;
+  }
+}
